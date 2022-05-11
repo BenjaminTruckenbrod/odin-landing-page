@@ -49,6 +49,8 @@ h1{
 .hero-p{
     color: #e5e7eb;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 button{
@@ -115,4 +117,35 @@ h2{
     align-self: center;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 100px;
+}
+
+h4{
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+
+}
+
+.call-1 p{
+    color: #e5e7eb;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sign-2{
+    border: solid;
+    border-color: #F9FAF8;
+    height: 30px;
+    width: 100px;
 }
