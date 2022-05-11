@@ -3,7 +3,7 @@ header{
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 100px;
+    padding: 5px 150px;
 }
 
 h3{
@@ -11,7 +11,7 @@ h3{
     color: white;
     /* font-weight: 800;
     font-weight: bolder; */
-    font-size: 18px;
+    font-size: 24px;
 }
 
 a{
@@ -29,5 +29,32 @@ ul{
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
-    
+}
+
+/* HERO SECTION */
+.hero-container{
+    display: flex;
+    padding: 5px 150px;
+    padding-bottom: 100px;
+    background-color: #1f2937;
+}
+
+h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #e5e7eb;
+    padding:5px 20px;
+    border: none;
 }
