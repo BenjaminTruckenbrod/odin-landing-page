@@ -1,7 +1,33 @@
 header{
+    display: flex;
     background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
 }
 
 h3{
-    font-style: roboto;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    /* font-weight: 800;
+    font-weight: bolder; */
+    font-size: 18px;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(161, 158, 158)
+}
+
+ul{
+    flex: 0.5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
